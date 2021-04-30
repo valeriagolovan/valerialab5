@@ -1,0 +1,12 @@
+header {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+body {
+	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
