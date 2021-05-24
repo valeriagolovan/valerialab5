@@ -63,7 +63,7 @@ else {
   // Выдать сообщение об ошибках.
   $user = 'u24095';
   $pass = '8452445';
-  $db = new PDO('mysql:host=localhost;dbname=u20945', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $db = new PDO('mysql:host=localhost;dbname=u24095', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   $login_id = $_POST['login'];
   $pass = md5($_POST['pass']);
   $stmt = $db->prepare("SELECT user_id FROM login_data WHERE login_id = ? AND pass = ?");
