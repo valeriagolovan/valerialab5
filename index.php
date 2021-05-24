@@ -246,8 +246,8 @@ if ($errors) {
 
 
 
- $user = 'u20945';
- $pass = '1388111';
+ $user = 'u24095';
+ $pass = '8452445';
  $db = new PDO('mysql:host=localhost;dbname=u20945', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
  if (!empty($_COOKIE[session_name()]) &&
